@@ -1,41 +1,34 @@
 <!DOCTYPE html>
-<html>
-    <Head>
-        <title>Signup page</title>
-        <style>
-          .body{
-text-align: center;
-          }
-                
-            
-            img{
-                width: 500px;
-                Float: left;
-                margin: right;
-            }
-            #line{
-                text-align: left;
-            }
-            #head1{
-                text-align: left;
-            }
-        </style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><login-web></title>
+        <link rel="stylesheet" href="style.css">
+       
     </Head>
-    <body class="body">
-        <h1 id="head1">Zoho</h1>
-        <p id="line">A central hub where teams can work,plan and achieve amaizing things together.</p>
-        <img src="mypics/newphoto2.jpeg" alt="desk photo">
+    <body>
+      
+        <h1 id="h1">Zoho</h1>
+        <p class="line">A central hub where teams can work,plan and achieve amaizing things together.</p>
+        <div class="heading">
+            <img  id="img" src="mypics/newphoto2.jpeg" alt="desk photo">
+            <div class="container">
         <h2>Signup page</h2>
         <h3>START FOR FREE</h3>
-        <p>Already a member?</p>
-        <label for ="User name">FullName:</label>
-        <input type="text" placeholder="Enter name">
+        <p class="member">Already a member?</p>
+        <label for ="User name">Name:</label>
+        <input type="text" placeholder="Enter fullname">
         <br>
         <br>
-        <label for ="E-mail">E-mail address:</label>
+        <label class="mail" for ="E-mail">E-mail address:</label>
         <input type="text" placeholder="@gmail.com">
         <br>
         <br>
+
+        <i class="fa-sharp fa-solid fa-house"></i>
         <button><a href="index2.html">login</a></button>
+    </div>
     </body>
 </html>

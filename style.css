@@ -1,0 +1,21 @@
+.heading{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.container{
+
+
+
+    text-align: center;
+    margin-bottom: 50%;
+    margin-right: 20%;
+}
+#img{
+    margin-top: -500px;
+    width: 45%;
+    height: 40%;
+}
+              
+                
+              

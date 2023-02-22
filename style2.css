@@ -1,0 +1,12 @@
+.login{
+    font-size: 5;
+    font: type 9px;
+    float: bold;
+    color: black;
+}
+
+body{
+    background-image: url(/mypics/html\ photo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
